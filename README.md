@@ -2,4 +2,4 @@
 
 Aqui vocês irão encontrar diversos códigos em C puro advindos de alguns treinos, algumas ideias ou até mesmo de algum projeto !
 
-Fiquem a vontade e divirtam-se !
+Fiquem a vontade!
