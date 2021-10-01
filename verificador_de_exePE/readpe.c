@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <locale.h>
 #include <stdlib.h>
 #include "lib/petest.h"
 
@@ -13,7 +14,7 @@ void usage(void) {
 }
 
 int main(int argc, char *argv[]) {
-
+	setlocale(LC_ALL,"portuguese");
   if (argc != 2)
     usage();
 
@@ -27,9 +28,9 @@ int main(int argc, char *argv[]) {
 
   petest_init(&pe);
   if (petest_ispe(&pe))
-    printf("Eh um PE.. continuando...\n");
+    printf("Arquivo É um PE.. continuando...\n");
   else
-    fatal("nao eh nao. Saindo...");
+    fatal("Não é um PE. Saindo...");
 
   printf("File: %s\n", pe.filepath);
   printf("MZ header: %x\n", pe.hdr_dos->e_magic);
