@@ -1,5 +1,5 @@
-# Hi guys, Bem vindos ao meu repositório em C ! 😄 :octocat:
+# Hi guys, Welcome my repository in c ! 😄 :octocat:
 
-Aqui vocês irão encontrar diversos códigos em C advindos de alguns treinos, algumas ideias ou até mesmo de algum projeto !
+Here your will search diversific codes in C then some training, some ideas or even some projects!
 
-Fiquem a vontade!
+Feel free!
